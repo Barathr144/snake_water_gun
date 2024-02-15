@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> SNAKE WATER GUN </title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="html" href="contact_section_game.html">
+  <form action="php1.php" method="POST"></form>
+</head>
+<body>
+   <header> 
+      <p class="titl1">
+         --------\ SNAKE WATER GUN /--------
+         <br>
+      </p>
+   </header>
+     
+   <a class="bar1" href="#rule">--:👍✌ About Game :--</a><br>
+   <a class="bar2" href="#inst1">--:👍✌ How to play Game:--</a><br>
+   <a class="bar3" href="contact_section_game.html">--:Contact the author:--</a>
+    
+  <!-- #region
+   <div class="imageset">
+      <div class="imagesets">
+      <a href="download.png" class="image-button" onclick="playRound('snake')">
+      <p> SNAKE</p></a>
+    </div>
+    <div>
+      <a href="#water.png" class="image-button" onclick="playRound('water')">
+      <p> WATER</p></a>
+    </div>
+    <div>
+      <a href="#gun.png" class="image-button" onclick="playRound('gun')">
+      <p> GUN </p></a>
+    </div>
+</div>-->
+
+   <div class="middle">
+      <button class="snake" onclick="playRound('snake')"> <span class="sidetext"><b>SNAKE</b></span>
+    </button><p>SNAKE</p>
+      <button class="water" onclick="playRound('water')"><span class="sidetex1">WATER</span>
+      </button><p>WATER</p>
+      <button class="gun" onclick="playRound('gun')"><span class="sidetex2">GUN</span>
+      </button><p>GUN</p>
+  
+      <button class="reset1" onclick="resetScore()">Reset score</button><p>RESET</p>
+   </div>
+
+   <div class="rules1" id="rule">
+      <p><b>---------: 👍✌About game :--------</b></p>
+      <hr>
+      <p>
+        <b>This game is based on the classic game 👉 rock_papaer_scicossor. gameplay given below 👇</b>
+         <li> 🐍 Snake is killed by 🔫 Gun so loses to it and 🐍snakes defeats 💧🌊 water by driknking  .</li>
+         <li> 🔫 Gun is defeated by water and 🔫 gun Kills the 🐍snake.</li>
+         <li> 💧🌊 Water kills gun by drowning and 💧🌊 water is defeated by 🐍snake by drinking thus empting it.</li>
+      </p>
+   </div>
+
+   <div class="inst" id="inst1"> 
+      <p>
+        <b>--------:👍✌ How to play Game:--------</b>
+         <hr>
+         <li>You can play many moves you want in this game by selecting the icon of your favour</li>
+         <li>You can view your score in the alert and you can reset the score and start from the beginning.</li>
+         <li>Thanks for reading and enjoy the Game.</li>
+      </p>
+   </div>
+  </div>
+   <footer>
+      <div class="container1">
+         <p>&copy; 2024 Barath M - FRONT END DEVELOPER , A Model game created by me using the famous rock_papaer_scicossor concept. NO rights Reserved LOL.</p>
+      </div>
+   </footer>
+
+   <script src="javascript_part_game.js"></script>
+</body>
+</html>
